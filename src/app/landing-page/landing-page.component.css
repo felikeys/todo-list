@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../assets/images/close-up-of-woman-writing-to-do-list-in-notepad.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title {
+    font-family: "IBM Plex Sans Devanagari";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 39px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #ffb703;
+    margin: 0;
+  }
+
+  .slogan {
+    margin-bottom: 144px;
+  }
+
+  .slogan p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #fb8500;
+    margin: 0;
+  }
+
+  button {
+    width: 298px;
+    height: 56px;
+    background: #fb8500;
+    box-shadow: 0px 0px 21.1px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-bottom: -154px;
+    font-size: 36px;
+  }
+}

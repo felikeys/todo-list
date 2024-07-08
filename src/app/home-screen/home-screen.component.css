@@ -1,0 +1,80 @@
+.container {
+  background: #466697;
+  height: 100vh;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+h1 {
+  font-family: "IBM Plex Sans Devanagari";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 43px;
+  line-height: 66px;
+  letter-spacing: -0.02em;
+  color: #ffb703;
+  margin: 0;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.data-sessions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.session-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.days {
+  background: #ffb703;
+  width: 26px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.input-wrapper {
+  background: #fff;
+  width: 100%;
+  height: 37px;
+  border-radius: 19px;
+  display: flex;
+  padding-left: 10px;
+  gap: 10px;
+}
+
+.input-wrapper img {
+  width: 12px;
+}
+
+input {
+  outline: none;
+  border: none;
+  font-size: 16pxs;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
