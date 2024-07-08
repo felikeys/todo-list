@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-screen',
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './home-screen.component.css'
 })
 export class HomeScreenComponent {
+router = inject(Router);
 
+onNavigateToNewEvent() {
+  this.router.navigate(['new-event']);
+}
 }
