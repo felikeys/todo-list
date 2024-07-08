@@ -172,3 +172,23 @@ h2 {
   height: 12px;
   margin-top: 9px;
 }
+
+.nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 5px;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  box-shadow: 0px -8px 25.6px rgba(0, 0, 0, 0.15);
+}
+
+.add-new-event-button {
+  position: absolute;
+  bottom: -11px;
+  right: 141px;
+}
