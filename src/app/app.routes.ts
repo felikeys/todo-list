@@ -3,6 +3,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { AddNewComponent } from './home-screen/add-new/add-new.component';
 import { EventsComponent } from './home-screen/events/events.component';
+import { NotificationComponent } from './home-screen/notification/notification.component';
 
 export const routes: Routes = [
     {path: '', component: LandingPageComponent},
@@ -10,6 +11,7 @@ export const routes: Routes = [
     {path: 'home', component: HomeScreenComponent, children: [
 
         {path: 'new-event', component: AddNewComponent},
-        {path: 'events', component: EventsComponent}
+        {path: 'events', component: EventsComponent},
+        {path: 'notification', component: NotificationComponent}
     ]},
 ];
